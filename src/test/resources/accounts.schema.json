@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name",
+      "surname",
+      "loyaltyprogramnumber",
+      "registrationdate",
+      "bonusbalance"
+    ],
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "surname": {
+        "type": "string",
+        "minLength": 1
+      },
+      "loyaltyprogramnumber": {
+        "type": "string"
+      },
+      "registrationdate": {
+        "type": "string"
+      },
+      "bonusbalance": {
+        "type": "integer",
+        "default": 0
+      }
+    }
+  }
+}
