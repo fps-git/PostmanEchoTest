@@ -33,7 +33,7 @@ public class PostTest {
                 .contentType(ContentType.JSON)
                 .body(matchesJsonSchemaInClasspath("accounts.schema.json"))
                 .body("data.name", equalTo("Василий"))
-                .body("data.bonusbalance", equalTo(1870))
+                .body("data.bonusbalance", equalTo(1000))
         ;
     }
 

@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/s0j9ydo2bfukn04s?svg=true)](https://ci.appveyor.com/project/fps-git/postmanechotest)
